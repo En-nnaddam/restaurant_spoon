@@ -24,8 +24,6 @@ const Recipe = () => {
         getRecipe(params.id)
     }, [params.id]);
 
-    console.log(recipe.extendedIngredients);
-
     return (
         <StyledRecipe>
             <div>
